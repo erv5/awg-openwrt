@@ -12,10 +12,10 @@ jobs:
     strategy:
       matrix:
         build_env:
-          - tag: "openwrt-23.05"
+          - tag: "snapshots"
             pkgarch: aarch64_cortex-a53_neon-vfpv4
-            target: ipq60xx
-            subtarget: generic
+            target: qualcommax
+            subtarget: ipq60xx
             vermagic: "fcb9998d2791e1b338dfc43d7410e143"
 
     steps:
